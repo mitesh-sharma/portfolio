@@ -15,7 +15,7 @@ const Navbar = () => {
         <li className='p-4 hover:text-indigo-700'><a href='/#about'>About</a></li>
         <li className='p-4 hover:text-indigo-700'><a href='/#Projects'>Projects</a></li>
         <li className='p-4 hover:text-indigo-700'><a href='/#Contact'>Contact</a></li>
-        <li className='p-4 hover:text-indigo-700'><a href='https://drive.google.com/file/d/1RAa5a6en0VEZ4Ta2vztP111hCzWetA4A/view?usp=sharing'>Resume</a></li>
+        <li className='p-4 hover:text-indigo-700'><a href='https://drive.google.com/file/d/1ANSsrgBYbvAxdvoAzadYMUGZblzuLzzP/view?usp=sharing'>Resume</a></li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
@@ -25,7 +25,7 @@ const Navbar = () => {
           <li className='p-4 border-b border-gray-600'><a href='/#about'>About</a></li>
           <li className='p-4 border-b border-gray-600'><a href='/#Projects'>Projects</a></li>
           <li className='p-4 border-b border-gray-600'><a href='/#Contact'>Contact</a></li>
-          <li className='p-4 border-b border-gray-600'><a href='https://drive.google.com/file/d/1RAa5a6en0VEZ4Ta2vztP111hCzWetA4A/view?usp=sharing'>Resume</a></li>
+          <li className='p-4 border-b border-gray-600'><a href='https://drive.google.com/file/d/1ANSsrgBYbvAxdvoAzadYMUGZblzuLzzP/view?usp=sharing'>Resume</a></li>
           <li className='p-4'>Contact</li>
       </ul>
     </div>
