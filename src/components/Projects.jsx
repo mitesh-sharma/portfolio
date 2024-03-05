@@ -1,7 +1,7 @@
 import React from "react";
 import netbook from "../assets/netbook.png";
 import sortx from "../assets/sortx.png";
-import Portfolio from "../assets/Portfolio.png";
+import News from "../assets/newsImage.jpg";
 import ser from "../assets/SER.png";
 const Projects = () => {
     const projects = [
@@ -20,19 +20,19 @@ const Projects = () => {
             code: "https://github.com/mitesh-sharma/Sort-X",
         },
         {
+            img: News,
+            title: "NewZ-BuzZ",
+            desc: "A news website built using React and Bootstrap and NewsAPI ",
+            live: "https://github.com/mitesh-sharma/NewZ-BuzZ",
+            code: "https://github.com/mitesh-sharma/NewZ-BuzZ",
+        },
+        {
             img: ser,
             title: "Speech Emotion Recognition",
             desc: "A Machine Learning Project which classifies different incoming human speech audio file into emotions",
             live: "https://github.com/mitesh-sharma/Speech-Emotion-Recognition",
             code: "https://github.com/mitesh-sharma/Speech-Emotion-Recognition",
-        },
-        {
-            img: Portfolio,
-            title: "Portfolio Website",
-            desc: "Personal Portfolio Website. Used React for the development of this Website",
-            live: "/",
-            code: "https://github.com/mitesh-sharma/portfolio",
-        },
+        }
     ];
 
     return (
@@ -51,7 +51,7 @@ const Projects = () => {
                 {projects.map((project, i) => {
                     return (
                         <div className="relative" key={i}>
-                            <img className="rounded-lg h-[270px] w-[250px]" src={project.img} alt={project.title} />
+                            <img className="rounded-3xl h-[300px]" src={project.img} alt={project.title} />
                             <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[85%]  bg-gray-900  opacity-0 duration-500 justify-center flex-col hover:opacity-100 rounded-lg">
                                 <p className="flex py-5 text-center mx-auto font-bold px-2 text-white">
                                     {project.desc}
